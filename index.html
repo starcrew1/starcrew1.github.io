@@ -3,20 +3,20 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="shortcut icon" href="/images/icon.ico" type="image/png">
 	<link href='style.css' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<title>Збережемо природу</title>
 </head>
 <body>
 	<div id="menu">
-		<a href="#" class="logo"><img id="logo" src="images/LOGO.png"></a>
 		<nav>
-			<ul>
-				<li><a href="#">Главная</a><hr></li>
-				<li><a href="#">Новое</a><hr></li>
-				<li><a href="#">О нас</a><hr></li>
-				<li><a href="#">Контакты</a><hr></li>
-			</ul>
+				<ul>
+					<a href="#" onclick="loadFile(main);" class="logo"><img id="logo" src="images/LOGO.png"></a>
+					<li><a href="#" onclick="loadFile(main);">Главная</a></li>
+					<li><a href="#" onclick="likeShow()">Добро</a></li>
+					<li><a href="#" onclick="dislikeShow();">Зло</a></li>
+				</ul>
 		</nav>
 	</div>
 	<div id="header">
