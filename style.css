@@ -547,7 +547,7 @@ box-shadow: inset 0px 4px 5px -2.5px rgba(0,0,0,0.2);
 	height: 20vw;
 	-webkit-clip-path: polygon(0 23%, 100% 16%, 95% 62%, 0 57%);
 	clip-path: polygon(0 23%, 100% 16%, 95% 62%, 0 57%);
-	transform: rotate(-5deg);
+	transform: rotate(-4deg);
 }
 #square2 > p{
 	display: block;
@@ -565,8 +565,8 @@ box-shadow: inset 0px 4px 5px -2.5px rgba(0,0,0,0.2);
 #likeText > img{
 	display: block;
 	position: relative;
-	width: 40vw; 
-	height: 20vh;
+	width: 44vw; 
+	height: 22vh;
 	top:-11vw;
 	left: -4vw;
 	transform: rotate(5deg);
