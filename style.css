@@ -565,9 +565,19 @@ box-shadow: inset 0px 4px 5px -2.5px rgba(0,0,0,0.2);
 #likeText > img{
 	display: block;
 	position: relative;
-	width: 44vw; 
-	height: 22vh;
+	width: 44vw;
 	top:-11vw;
 	left: -4vw;
 	transform: rotate(5deg);
+}
+
+#back_text{
+	display: block;
+	position: relative;
+	color: #2873DD;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1vw;
+	font-weight: bold;
+	top: -34vw;
+    left: 82vw;
 }
