@@ -17,7 +17,7 @@ function loadFile(file, func = null)
 		if (xhr.status != 200)
 		{
 			// обработать ошибку
-			alert( "ERROR, SUKA!!!!! " + xhr.status + ': ' + xhr.statusText ); // пример вывода: 404: Not Found
+			alert( "ERROR! " + xhr.status + ': ' + xhr.statusText ); // пример вывода: 404: Not Found
 		} else {
 			// вывести результат
 			document.getElementById("header").innerHTML=xhr.responseText; // responseText -- текст ответа.
