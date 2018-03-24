@@ -1,10 +1,4 @@
-<div id="dislikeInfo" style="
- 		display: block;
- 		position: relative;
- 		width: 100vw;
-		height: 90vh;
-		background-color: #03000F;
-		">
+<div id="dislikeInfo">
 	<div id="disText">
 		<p style="
 			line-height: normal;
@@ -29,7 +23,7 @@
 		происходит на нашей планете</p>
 	</div>
 	
-	<img src="images/dislike.png" style="
+	<img id="dislike-img" src="images/dislike.png" style="
 		display: block;
 		position: relative;
 		top: 2vh;
@@ -37,7 +31,7 @@
 		width: 38vw;
 		height: auto;
 	">
-	<a href="#" onclick="loadFile(main);" style="
+	<a href="#" onclick="show(main);" style="
 		display: block;
 		position: absolute;
 		top: 58%;
@@ -96,3 +90,4 @@
 Воды потреблено в этом году </p></li>
 	</ul>
 </div>
+<script>currentPage=badPage;</script>

@@ -21,10 +21,41 @@ html, body {
 		width: 38vw;}
 }
 
+@keyframes DHandMoveReverse{
+	from {top: 2vh;
+		left: 60vw;
+		width: 38vw;}
+	to {
+		width: 32vw;
+		left: 4vw;
+	}
+}
+
+@keyframes DShrink{
+	to {left:0vw; width:50vw;}
+}
+
 @keyframes LHandMove{
 	to {top: 2vh;
 		left: 60vw;
 		width: 35vw;}
+}
+
+@keyframes LHandMoveReverse{
+	from {
+		margin-top: 2vh;
+		margin-left: 60vw;
+		width: 35vw;}
+	to {
+		width: 32vw;
+		height: auto;
+		margin-top: 6vh;
+		margin-left: 18vw;
+	}
+}
+
+@keyframes LShrink{
+	to {margin-left:50vw; width:50vw;}
 }
 
 @keyframes Hide{
@@ -580,4 +611,20 @@ box-shadow: inset 0px 4px 5px -2.5px rgba(0,0,0,0.2);
 	font-weight: bold;
 	top: -34vw;
     left: 82vw;
+}
+
+#dislikeInfo{
+	display: block;
+	position: relative;
+	width: 100vw;
+	height: 90vh;
+	background-color: #03000F;
+}
+
+#likeInfo{
+	display: block;
+	position: relative;
+	width: 100vw;
+	height: 90vh;
+	background-color: #D8EAFA;
 }

@@ -11,12 +11,12 @@
 <body>
 	<div id="menu">
 		<nav>
-				<ul>
-					<a href="#" onclick="loadFile(main);" class="logo"><img id="logo" src="images/LOGO.png"></a>
-					<li><a href="#" onclick="loadFile(main);">Главная</a></li>
-					<li><a href="#" onclick="likeShow()">Добро</a></li>
-					<li><a href="#" onclick="dislikeShow();">Зло</a></li>
-				</ul>
+			<ul>
+				<a href="#" onclick="show(main);" class="logo"><img id="logo" src="images/LOGO.png"></a>
+				<li><a href="#" onclick="show(main);">Главная</a></li>
+				<li><a href="#" onclick="show(goodPage)">Добро</a></li>
+				<li><a href="#" onclick="show(badPage);">Зло</a></li>
+			</ul>
 		</nav>
 	</div>
 	<div id="header">
@@ -29,6 +29,6 @@
 	<div id="spacerEnd"></div>
 	<script type="text/javascript" src="script.js">
 	</script>
-	<script type="text/javascript">loadFile(main);</script><!--load main page-->
+	<script type="text/javascript">show(main);</script><!--load main page-->
 </body>
 </html>
