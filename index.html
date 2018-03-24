@@ -20,8 +20,27 @@
 		</nav>
 	</div>
 	<div id="header">
-		<p> LOADING...</p>
+		<p id="loading"> LOADING...</p>
 	</div>
+	<style>
+		@keyframes spiiiin{
+			0%{
+				transform:rotate(0deg);
+			}
+			100%{
+				transform:rotate(99999deg);
+			}
+		}
+		#loading{
+			text-align: center;
+			font-size: 13vw;
+			background-color: rgb(60, 90, 157);
+			animation-name: spiiiin;
+			animation-duration: 80s;
+			animation-iteration-count: infinite;
+			animation-play-state: running;
+		}
+	</style>
 	<div id="spacer"></div>
 	<footer>
 		Powered by DreamTeam
