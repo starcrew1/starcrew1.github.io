@@ -9,6 +9,7 @@
 	<title>Збережемо природу</title>
 </head>
 <body>
+	
 	<div id="menu">
 		<nav>
 			<ul>
@@ -20,34 +21,23 @@
 		</nav>
 	</div>
 	<div id="header">
-		<p id="loading"> LOADING...</p>
+		<div id="loading_layer">
+			<img src="images/preloader.gif"/>
+		</div>
 	</div>
-	<style>
-		@keyframes spiiiin{
-			0%{
-				transform:rotate(0deg);
-			}
-			100%{
-				transform:rotate(99999deg);
-			}
-		}
-		#loading{
-			text-align: center;
-			font-size: 13vw;
-			background-color: rgb(60, 90, 157);
-			animation-name: spiiiin;
-			animation-duration: 80s;
-			animation-iteration-count: infinite;
-			animation-play-state: running;
-		}
-	</style>
 	<div id="spacer"></div>
 	<footer>
-		Powered by DreamTeam
+		<p>Copyright 2018</p>
+		<p>Contac: Main developer - alex.boiko.2001@gmail.com</p>
 	</footer>
 	<div id="spacerEnd"></div>
 	<script type="text/javascript" src="script.js">
 	</script>
 	<script type="text/javascript">show(main);</script><!--load main page-->
+	<script type="text/javascript">
+		function hideLoadingLayer(){
+		document.getElementById("loading_layer").style.visibility="hidden";
+		}
+	</script>
 </body>
 </html>
