@@ -400,8 +400,9 @@ box-shadow: inset 0px 4px 5px -2.5px rgba(0,0,0,0.2);
 footer{
 	display: block;
 	position: relative;
+	padding-bottom: 0.5vw;
+	padding-top: 0.5vw;
 	width: 100vw;
-	height: 10vw;
 	background-color: #4c88d3;
 	-webkit-box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.22);
 	-moz-box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.22);
@@ -669,10 +670,10 @@ box-shadow: inset 0px 4px 5px -2.5px rgba(0,0,0,0.2);
 }
 
 #textN{
-	text-align: center;
+	/* text-align: center; */
 	font-family: "Open Sans", sans-serif;
-	font-size: 3vw;
-	line-height: 3.8vw;
+	font-size: 2vw;
+	line-height: 2.1vw;
 }
 
 #spacer3{
